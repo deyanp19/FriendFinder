@@ -44,8 +44,8 @@ app.listen(PORT, function() {
 ```
 
 ### Secreenshots
-![alt text](images/watchbuddysurvey.png)
-![alt text](images/watchbuddy.png)
+![alt text](/images/watchbuddysurvey.png)
+![alt text](/images/watchbuddy.png)
 
 ### Installing
 Sipmly run on NodeJS installation
