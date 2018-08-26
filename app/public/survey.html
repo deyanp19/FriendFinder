@@ -8,9 +8,10 @@
        
         <!--Bootstrap CDN used-->
     
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <!-- Google Font used-->
         <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet"> 
     
@@ -180,11 +181,15 @@
                 </button>
     
                 <!-- Modal Structure -->
+
+<!-- Button trigger modal -->
+ 
+
                 <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <h4>Your new baller friend is...</h4>
-                        <h5 id="baller"></h5>
-                        <img id="ballerImage" alt="baller friend" height="250px" width="250px">
+                        <h4>Your new friend is </h4>
+                        <h5 id="watchClolector"></h5>
+                        <img id="watchClolectorFace" alt="watch collector friend" height="250px" width="250px">
                     </div>
                     <div class="modal-footer">
                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -214,12 +219,12 @@
                             $('#q10').val()
                         ]
                     };
-    
+
                     console.log(userInfo);
     
                     $.post("api/friends", userInfo).then(function (data) {
-                        $("#baller").text(data.name);
-                        $("#ballerImage").attr("src", data.photo);
+                        $("#watchClolector").text(data.name);
+                        $("#watchColectorFace").attr("src", data.photo);
                     });
     
                     $(".modal").modal();
