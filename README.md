@@ -12,3 +12,42 @@ The app will create express environment on a server.
 
 
  Paths will be created that will GET and POST on the server.
+
+ # Used Techonologies
+ ## NodeJS
+ ## NPM library 
+ ### NPM packages
+ #### Express
+ #### Paths
+ #### Body- Parser
+ ## JavaScript
+ ## HTML, CSS 
+
+#### Example code
+```
+if (score === goal){
+        alert("You win!");
+        win++;
+        $("#wins").text("Wins: " + win);
+        gameStart();
+      
+    
+    }
+```
+### Installing
+Sipmly run on NodeJS installation
+```
+node server.js
+``` 
+Kepp the folder structure as original. There are relative links that need the files referencing to them.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Northwestern Univeristy
+* Phill
+
+
