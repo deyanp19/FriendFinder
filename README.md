@@ -1,5 +1,5 @@
 # FriendFinder
-dating app that finds your friends adn gives you option to search with displaying a picture
+Web app that finds your friends adn gives you option to search with displaying a picture
 
 
 The app will create express environment on a server. 
