@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Watch Fan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <!--Bootstrap CDN used-->
+    
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+        <!-- Google Font used-->
+        <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet"> 
+    
+        <!-- jQuery minified Used-->
+        <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class='container'>
+            <div class='card-panel cyan lighten-1 col s12 center-align'>
+                <h4>Survey Questions</h4>
+                <p>Make sure to fill ALL the fields to find your watch buddy</p>
+    
+                <input id="name" type="text" class='center-align' required>
+                <label for="name">Name</label>
+    
+                <input id="image" type="text" class='center-align' required>
+                <label for="image">Image URL</label>
+    
+                <h5>
+                    <strong>Question 1</strong>
+                </h5>
+                <p>How much you preffer automatic of quartz watches?</p>
+    
+                <select class="browser-default" id="q1" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 2</strong>
+                </h5>
+                <p>How you evaluate the need for leather of plastic stripe</p>
+    
+                <select class="browser-default" id="q2" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 3</strong>
+                </h5>
+                <p>How much you insist on the brand compare to complication</p>
+    
+                <select class="browser-default" id="q3" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 4</strong>
+                </h5>
+                <p>How much you value self adjusting the watches compare to proffesional watchment </p>
+    
+                <select class="browser-default" id="q4" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 5</strong>
+                </h5>
+                <p>How much you value the swiss watch movement to asian watch movement</p>
+    
+                <select class="browser-default" id="q5" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 6</strong>
+                </h5>
+                <p>How much yu value the precious metalls in the design of a watch</p>
+    
+                <select class="browser-default" id="q6" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 7</strong>
+                </h5>
+                <p>How much you value the new materials in the watches?</p>
+    
+                <select class="browser-default" id="q7" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 8</strong>
+                </h5>
+                <p>Do you preffer the roman numero on the face?</p>
+    
+                <select class="browser-default" id="q8" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 9</strong>
+                </h5>
+                <p>How much you value chronograph in a watch</p>
+    
+                <select class="browser-default" id="q9" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+    
+                <h5>
+                    <strong>Question 10</strong>
+                </h5>
+                <p>How you evaluate the ownership of sports car?</p>
+    
+                <select class="browser-default" id="q10" required>
+                    <option value=""></option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+                <br>
+                <hr>
+                <br>
+                <button class="btn waves-effect waves-light modal-trigger" type="submit" id="modalBtn" data-target="modal1" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+    
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Your new baller friend is...</h4>
+                        <h5 id="baller"></h5>
+                        <img id="ballerImage" alt="baller friend" height="250px" width="250px">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#modalBtn").click(function (e) {
+                    e.preventDefault();
+    
+                    const userInfo = {
+                        name: $("#name").val().trim(),
+                        photo: $("#image").val().trim(),
+                        scores: [
+                            $('#q1').val(),
+                            $('#q2').val(),
+                            $('#q3').val(),
+                            $('#q4').val(),
+                            $('#q5').val(),
+                            $('#q6').val(),
+                            $('#q7').val(),
+                            $('#q8').val(),
+                            $('#q9').val(),
+                            $('#q10').val()
+                        ]
+                    };
+    
+                    console.log(userInfo);
+    
+                    $.post("api/friends", userInfo).then(function (data) {
+                        $("#baller").text(data.name);
+                        $("#ballerImage").attr("src", data.photo);
+                    });
+    
+                    $(".modal").modal();
+    
+                    $('#name').val("");
+                    $('#image').val("");
+                    $('#q1').val("");
+                    $('#q2').val("");
+                    $('#q3').val("");
+                    $('#q4').val("");
+                    $('#q5').val("");
+                    $('#q6').val("");
+                    $('#q7').val("");
+                    $('#q8').val("");
+                    $('#q9').val("");
+                    $('#q10').val("");
+                });
+    
+    
+            });
+        </script>
+</body>
+</html>
