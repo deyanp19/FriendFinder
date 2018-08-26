@@ -2,7 +2,7 @@
 dating app that finds your friends adn gives you option to search with displaying a picture
 
 
-The app will create express environment on a server.There will be no need of server.
+The app will create express environment on a server. 
 *** The app will contain the questions and the answers in arrays.
 
 *** The app will contain point system that will collect the answers in array.
