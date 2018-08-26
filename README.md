@@ -42,6 +42,11 @@ app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
 ```
+
+### Secreenshots
+![alt text](images/watchbuddysurvey.png)
+![alt text](images/watchbuddy.png)
+
 ### Installing
 Sipmly run on NodeJS installation
 ```
